@@ -1,0 +1,36 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.664)) ,url(./kof96-stage-korea.gif ) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+}
+.main h1{
+    font: 49px poopins;
+    font-weight: bold;
+   font-size: 55px;
+   gap: 12px;
+}
+.main p{
+      font: 30px poopins;
+    font-weight: bold; 
+}
+.fighter1 .ani1{
+    position: absolute;
+    margin-top: 288px;
+    height: 198px;
+
+}
+.fighter2 .ani2{
+      position: absolute;
+          margin-top: 290px;
+    height: 200px;
+    margin-left: 800px;
+    transform: scaleX(-1);
+}
